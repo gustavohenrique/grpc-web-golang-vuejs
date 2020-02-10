@@ -1,0 +1,36 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "A gRPC-Web example using VueJS and Golang",
+  "productName": "Frontend Using gRPC-Web",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "Gustavo Henrique <gustavo@gustavohenrique.net>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "google-protobuf": "^3.11.3",
+    "grpc-web": "^1.0.7",
+    "quasar": "^1.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
