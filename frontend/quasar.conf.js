@@ -11,7 +11,6 @@ module.exports = function (ctx) {
   return {
     boot: [
       'bus',
-      'components',
       'services'
     ],
 
